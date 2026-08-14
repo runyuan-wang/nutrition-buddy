@@ -1,0 +1,29 @@
+# 依赖
+node_modules/
+
+# 构建产物（可 npm run build 重新生成）
+dist-main/
+dist-renderer/
+dist/
+release/
+out/
+
+# 运行时数据（用户本地数据与测试产物，绝不入库）
+data/
+
+# 环境变量与密钥
+.env
+.env.*
+*.local
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# 测试截图等临时产物
+*.done
+*.deleted
+.test-userdata/
